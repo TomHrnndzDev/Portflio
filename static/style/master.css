@@ -31,6 +31,14 @@ Table of contents
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"); /*----------------------------------
 * Buttons
 ----------------------------------*/
+.face {
+  position: relative;
+}
+.pattern {
+  position: absolute;
+  /* z-index: 1; */
+}
+
 .p_img {
   display: flex;
   justify-content: center;
@@ -233,7 +241,7 @@ a {
   color: #d9832e;
 }
 a:hover {
-  color: #f155a9;
+  color: #d9832e;
   text-decoration: none;
 }
 
@@ -5998,10 +6006,31 @@ h6 {
   font-size: 25px;
   font-weight: 600;
   display: inline-block;
+  margin: 0 0 50px;
+  position: relative;
+  transition: ease all 0.35s;
+  left: -25px;
+}
+.portfolio-box-01 .portfolio-info h5:hover {
+  font-size: 2rem;
+}
+.portfolio-box-01 .portfolio-info .code-btn {
+  margin-top: 50px;
+  background-color: none;
+  text-decoration: none;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
   margin: 0 0 10px;
   position: relative;
   transition: ease all 0.35s;
   left: -25px;
+}
+.btn-clear {
+  color: #ffffff;
 }
 @media (max-width: 991px) {
   .portfolio-box-01 .portfolio-info h5 {
@@ -6023,6 +6052,9 @@ h6 {
   opacity: 1;
 }
 .portfolio-box-01:hover .portfolio-info h5 {
+  left: 0;
+}
+.portfolio-box-01:hover .portfolio-info .code-btn {
   left: 0;
 }
 .portfolio-box-01:hover .portfolio-info span {
