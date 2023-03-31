@@ -42,13 +42,14 @@ Table of contents
   position: absolute;
   z-index: 0;
   width: 500px;
-  top: -70px;
-  left: 1000px;
+  top: -100px;
+  left: 1050px;
 }
 .sat {
   position: absolute;
   width: 500px;
   z-index: 0;
+  top: 80px;
   right: 1100px;
 }
 
