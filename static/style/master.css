@@ -38,6 +38,26 @@ Table of contents
   position: absolute;
   /* z-index: 1; */
 }
+.pat {
+  position: absolute;
+  z-index: 0;
+  width: 500px;
+  top: -70px;
+  left: 1000px;
+}
+.sat {
+  position: absolute;
+  width: 500px;
+  z-index: 0;
+  right: 1100px;
+}
+
+.about-paragraph {
+  padding: 20px;
+  margin: 0px auto;
+  border: 10px solid #e5ab71;
+  border-radius: 5px;
+}
 
 .p_img {
   display: flex;
