@@ -38,20 +38,6 @@ Table of contents
   position: absolute;
   /* z-index: 1; */
 }
-.pat {
-  position: absolute;
-  z-index: 0;
-  width: 500px;
-  top: -100px;
-  left: 1050px;
-}
-.sat {
-  position: absolute;
-  width: 500px;
-  z-index: 0;
-  top: 80px;
-  right: 1100px;
-}
 
 .bgimg {
   background-image: url(/static/img/patternpad.svg);
