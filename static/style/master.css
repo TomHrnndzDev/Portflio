@@ -38,26 +38,19 @@ Table of contents
   position: absolute;
   /* z-index: 1; */
 }
-<<<<<<< HEAD
-
-.bgimg {
-  background-image: url(/static/img/patternpad.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
+.pat {
+  position: absolute;
+  z-index: 0;
+  width: 500px;
+  top: -70px;
+  left: 1000px;
 }
-.about-paragraph {
-  padding: 20px;
-  margin: 0px auto;
-  border: 100px solid #e5ab71;
-  background-color: #ffffff;
-  border-radius: 5px;
-  box-shadow: #000000;
+.sat {
+  position: absolute;
+  width: 500px;
+  z-index: 0;
+  right: 1100px;
 }
-=======
->>>>>>> parent of 1ed9865 (centered about me page)
 
 .p_img {
   display: flex;
