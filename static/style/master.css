@@ -39,7 +39,7 @@ Table of contents
   /* z-index: 1; */
 }
 
-.bgimg {
+#about {
   background-image: url(/static/img/patternpad.svg);
   background-position: center;
   background-repeat: no-repeat;
