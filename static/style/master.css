@@ -38,18 +38,24 @@ Table of contents
   position: absolute;
   /* z-index: 1; */
 }
-.pat {
-  position: absolute;
-  z-index: 0;
-  width: 500px;
-  top: -70px;
-  left: 1000px;
+
+.bgimg {
+  background-image: url(/static/img/patternpad.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
 }
-.sat {
-  position: absolute;
-  width: 500px;
-  z-index: 0;
-  right: 1100px;
+.about-paragraph {
+  padding: 20px;
+  margin: 0px auto;
+  border: 10px solid #e5ab71;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: -7px 6px 10px 0px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: -7px 6px 10px 0px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: -7px 6px 10px 0px rgba(0, 0, 0, 0.68);
 }
 
 .p_img {
