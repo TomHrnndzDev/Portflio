@@ -36,8 +36,8 @@ Table of contents
 }
 .pattern {
   position: absolute;
-  right: 50px;
-  top: 20spx;
+  right: 20px;
+  top: 0px;
   /* z-index: 1; */
 }
 
