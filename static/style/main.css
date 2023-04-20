@@ -6023,7 +6023,10 @@ h6 {
 }
 .portfolio-box-01 .portfolio-info h5 {
   color: #ffffff;
-  font-size: 25px;
+  border: 2px solid #ffffff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 20px;
   font-weight: 600;
   display: inline-block;
   margin: 0 0 50px;
@@ -6049,6 +6052,7 @@ h6 {
   transition: ease all 0.35s;
   left: -25px;
 }
+
 .btn-clear {
   color: #ffffff;
 }
